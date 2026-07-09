@@ -5,7 +5,7 @@ from huggingface_hub import InferenceClient
 MODELS = getattr(
     config,
     "HF_MODELS",
-    ["meta-llama/Llama-3.1-8B-Instruct"],
+    ["meta-llama/Llama-3.1-8B-Instruct", "deepseek-ai/DeepSeek-V3", "openai/gpt-oss-120b", "MiniMaxAI/MiniMax-M1-80k", "Qwen/Qwen2.5-7B-Instruct"],
 )
 
 

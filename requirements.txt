@@ -1,4 +1,5 @@
 streamlit
 huggingface_hub
 requests
-io
+Groq
+python-dotenv
